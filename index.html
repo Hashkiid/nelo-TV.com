@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelo TV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Nelo TV</h1>
+            <button class="menu-btn">Menu</button>
+            <div class="dropdown">
+                <button class="dropbtn">Settings</button>
+                <div class="dropdown-content">
+                    <a href="#upload-section">Upload</a>
+                    <a href="#files-section">My Videos</a>
+                    <a href="#creator-section">About Me</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Your Videos</h2>
+            <form id="upload-form">
+                <input type="file" id="file-input" accept="video/*" multiple>
+                <button type="submit" class="btn">Upload Videos</button>
+            </form>
+        </section>
+        <section id="files-section">
+            <h2>Your Videos</h2>
+            <ul id="files-list">
+                <!-- Uploaded videos will appear here -->
+            </ul>
+        </section>
+        <section id="creator-section">
+            <h2>About the Creator</h2>
+            <div class="creator-info">
+                <img src="assets/images/creator.jpg" alt="Creator's Picture" class="creator-img">
+                <div class="creator-text">
+                    <h3>Hello, I'm [Tshwanello]!</h3>
+                   <p>Hello! I'm Tshwanello, the passionate mind behind Nelo TV. My journey into the world of video streaming started with a simple yet profound addiction to exploring diverse content. This fascination evolved into a deep-seated desire to create a platform where people can enjoy a wide array of videos in an engaging and user-friendly environment.</p>
+        <p>Inspired by my own experiences and the endless possibilities of digital media, I embarked on this project to bring a unique video streaming experience to life. Nelo TV is the result of countless hours of dedication, creativity, and a relentless drive to provide an exceptional service to all users.</p>
+        <p>Thank you for joining me on this exciting journey. I hope you enjoy Nelo TV as much as I enjoyed creating it!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Nelo TV. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
